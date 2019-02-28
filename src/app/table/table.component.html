@@ -1,0 +1,21 @@
+<p>
+  table works!
+</p>
+<div>
+  <table border = "2px"> 
+    <th>code</th>
+    <th>name</th>
+    <th>gender</th>
+    <th>annual salary</th>
+    <th>date of birth</th>
+  
+       <tr *ngFor='let employee of employees'>
+         <td>{{employee.code}}</td>
+         <td>{{employee.name}}</td>
+          <td>{{employee.gender}}</td>
+            <td>{{employee.annualSalary}}</td>
+              <td>{{employee.dateOfBirth}}</td>
+
+       </tr>
+</table>
+</div>
